@@ -1,0 +1,137 @@
+h2{
+text-transform: uppercase;
+color: black;
+text-decoration: underline;
+}
+
+.describtion{
+    font-size: large;
+    color: blue;
+    text-decoration: underline;
+}
+
+.pp-describtion{
+    font-size: 48px;
+    color: brown;
+}
+
+#one{
+    font-size: 20px;
+    color: chocolate;
+    font-style:italic;
+}
+
+.one{
+    color: darkgreen;
+    font-size: 50px;
+}
+
+.block-of-rules{
+    width:50%;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.menu2 > li a{
+    text-transform: lowercase;
+    font-size: 40px;
+}
+
+h3+.description{
+    font-size: 30px;
+    color: darkorchid;
+}
+
+
+/**h3, p {
+    color: green;
+}*/
+
+h2 ~ .description {
+    color:yellow;
+}
+
+/*h2,
+h3 {
+    color: lavender;
+    text-transform: lowercase;
+} */
+
+/* Равен */
+/*a[data-customer="antilopa"] {
+    color: orange;
+} */
+
+/* Содержит слово */
+ /*a[data-customer~="ostap"] {
+    color: orange;
+} */
+
+/* Содержит сочетание */
+ /*a[data-customer*="ko"] {
+    color:tomato;
+} */
+
+/*Начинается*/
+
+/* a[data-customer^="ostap"] {
+    color: orange;
+} */ 
+
+/* Заканчивается */
+a[data-customer$="ostap"] {
+    color: orange;
+} 
+
+input[type="text"] {
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: peachpuff;
+  }
+input[type="button"] {
+    width: 200px;
+    height: 80px;
+    background-color: aqua;
+}
+  .button[type="textarea"] {
+    border: 1px solid blue;
+  }
+
+  .button[data-foo="bazz"] {
+    border: 1px solid green;
+  }
+
+  .button[data-foo="bazzy"] {
+    border: 3px solid hsl(118, 79%, 38%);
+  }
+/** Атрибут равен */
+a[data-name="dd"]{
+    font-size:100px
+}
+/** Содержится слово */
+a[data-name~="cc"]{
+    color: darkorchid;
+}
+/** Содержит сочетание чего то */
+a[data-name*="cc"]{
+    color: darkseagreen;}
+
+/** Начинается */
+a[data-name^="cc"]{
+    color: darkseagreen;
+}
+/** Заканчиваетсяна */
+a[data-name$="cc"]{
+    color: darkseagreen;
+}
+
+/*
+*{
+    font-size: larger;
+    background-color:grey;
+}*/

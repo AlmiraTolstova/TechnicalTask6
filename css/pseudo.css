@@ -1,0 +1,121 @@
+.button1{
+    width: 300px;
+    height: 80px;
+    background-color: lavender;
+    border-radius: 40px;
+}
+
+/*При наведении*/
+.button1:hover{
+    background-color: lavenderblush;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+
+.button2{
+    width: 300px;
+    height: 80px;
+    background-color: skyblue;
+    border-radius: 40px;
+}
+
+/*При наведении*/
+.button2:hover{
+    background-color: lavenderblush;
+    font-size: larger;
+}
+
+/*При нажатии*/
+ .button2:active{
+    background-color: slateblue;
+}
+
+.kinder p:last-of-type{
+    color: cornsilk;
+}
+
+.kinder p:first-of-type{
+    color:wheat;
+}
+
+.kinder h1:first-child{
+    color: plum;
+}
+
+.kinder blockquote:last-child{
+    background-color: coral; 
+}
+
+.kinder :nth-child(2){
+    background-color: red;
+}
+
+.kinder :nth-child(3){
+    background-color: orange;
+}
+
+.kinder :nth-child(4){
+    background-color: yellow;
+}
+
+.kinder :nth-child(5){
+    background-color:green;
+}
+
+.kinder :nth-child(6){
+    background-color: skyblue;
+}
+
+.kinder :nth-child(7){
+    background-color: blue;
+}
+
+.kinder :nth-child(8){
+    background-color:violet;
+}
+
+.big-text{
+    text-decoration: underline;
+}
+
+.kinder p:not(.big-text){
+    font-style: italic;
+}
+
+h1::after{
+    display: inline;
+    content: url("https://img.icons8.com/clouds/100/000000/cloud-network.png");
+}
+h1::before{
+    content: url("https://img.icons8.com/nolan/64/developer.png");
+}
+
+/** Не переходили **/
+a:link{
+    color: yellow;
+    text-decoration: none;
+}
+
+/** Наведение **/
+a:hover{
+    font-size: 20px;
+    color: violet;
+    text-decoration: underline;
+}
+
+/** Переходили **/
+a:visited{
+    color: red
+}
+
+/** В момент нажатия**/
+a:active{
+    color: royalblue;
+}
+
+p::first-line{
+    font-size: 30px;
+    color: grey;
+}
+
